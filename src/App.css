@@ -1,0 +1,30 @@
+body {
+    background: #18a;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.joke {
+    background-color: rgb(3, 62, 78);
+}
+
+.joke > .joke--setup, .joke--punchline {
+    margin: 10px;
+    padding: 3px;
+}
+
+.joke--title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 62, 78);
+}
+
+.joke--title > h1, .joke--text {
+    margin: 10px;
+}
+
+.joke--icon {
+    width: 40px;
+}
